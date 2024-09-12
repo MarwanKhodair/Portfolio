@@ -1,0 +1,90 @@
+*{
+box-sizing: border-box;
+overflow: hidden;
+margin: 0px;
+}
+
+body {
+font-family: 'Poppins', sans-serif;
+background-color: #E8E8E8;
+color: #333;
+}
+.head {
+background-color: #BEBEBE;
+padding: 25px; /* Consistent padding */
+margin: -10px;
+}
+
+nav {
+font-family: 'Poppins', sans-serif;
+text-align: center;
+position: relative;
+top: 8px; /* Consistent top position */
+}
+
+ul {
+list-style: none;
+padding: 0;
+}
+
+li {
+display: inline-block;
+margin-right: 30px; /* Same spacing between links */
+margin-top: 10px;
+}
+
+a {
+text-decoration: none;
+color: black;
+font-weight: bold;
+font-size: larger;
+}
+
+a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+max-width: 1000px;
+margin: 50px auto;
+text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.certifications {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.certification-card {
+    background-color: #BEBEBE;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    margin: 15px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certification-card h2 {
+    font-size: 24px;
+    font-weight: 500;
+    font-weight: bolder;
+    color: black;
+}
+.certification-card h2:hover{
+    background-color: #333;
+    color: #fff;
+}
+.certification-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+}
