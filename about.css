@@ -1,10 +1,10 @@
 body{
-    background-color: #E8E8E8		;
+    background-color: #E8E8E8;
     overflow: hidden;
 }
 .head {
     background-color: #BEBEBE;
-    padding: 8px; /* Consistent padding */
+    padding: 8px; 
     margin: -10px;
 }
 
@@ -21,7 +21,7 @@ ul {
 
 li {
     display: inline-block;
-    margin-right: 30px; /* Same spacing between links */
+    margin-right: 30px; 
     margin-top: 10px;
 }
 
