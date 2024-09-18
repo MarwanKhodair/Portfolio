@@ -11,7 +11,7 @@ color: #333;
 }
 .head {
 background-color: #BEBEBE;
-padding: 25px; /* Consistent padding */
+padding: 25px; 
 margin: -10px;
 }
 
@@ -19,7 +19,7 @@ nav {
 font-family: 'Poppins', sans-serif;
 text-align: center;
 position: relative;
-top: 8px; /* Consistent top position */
+top: 8px; 
 }
 
 ul {
@@ -29,7 +29,7 @@ padding: 0;
 
 li {
 display: inline-block;
-margin-right: 30px; /* Same spacing between links */
+margin-right: 30px; 
 margin-top: 10px;
 }
 
