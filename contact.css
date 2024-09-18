@@ -87,7 +87,6 @@ body{
     color: #fff;
 }
 
-/* Responsive Design */
 @media (max-width: 600px) {
     .contact-info {
         flex-direction: column;
